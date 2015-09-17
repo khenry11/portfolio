@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- Using BootStrap! -->
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<style>
+			body{
+			background-color:#595959;
+		}
+		.carousel-inner{
+			margin-top:25px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1000px;
+			max-width: 100%;
+			max-height: 500px !important;
+		}
+		
+		@media (min-width: 768px) {
+		  .navbar-collapse {
+			height: auto;
+			border-top: 0;
+			box-shadow: none;
+			max-height: none;
+			padding-left:0;
+			padding-right:0;
+		  }
+		  .navbar-collapse.collapse {
+			display: block !important;
+			width: auto !important;
+			padding-bottom: 0;
+			overflow: visible !important;
+		  }
+		  .navbar-collapse.in {
+			overflow-x: visible;
+			
+		  }
+
+		.navbar
+		{
+			background-color:#969696;
+			margin-top:35px;
+			max-width:300px;
+			margin-right: 0;
+			margin-left: 40px;
+		}	
+
+		.navbar-nav,
+		.navbar-nav > li,
+		.navbar-left,
+		.navbar-right,
+		.navbar-header
+		{float:none !important;}
+
+		.navbar-right .dropdown-menu {left:0;right:auto;}
+		.navbar-collapse .navbar-nav.navbar-right:last-child {
+			margin-right: 0;
+		}
+		
+		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		color: #ffffff; 
+		}
+
+		.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+		 a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		color: white;
+		background-color: #9c9c9c;
+		}
+
+		  .navbar-default {
+			background-color: #747474;
+			border-color: #6a6969;
+		}
+
+		  .dropdown-menu > li > a:hover,
+		   .dropdown-menu > li > a:focus {
+			color: #ffffff;
+		   text-decoration: none;
+		  background-color: #747474;
+		   }
+
+		 .nav > li > a:hover,
+		 .nav > li > a:focus {
+			text-decoration: none;
+			background-color: #ff0000; 
+		  }
+
+
+		  .navbar-default .navbar-nav > li > a {
+		   color: white;
+			}
+		 .aboutbox{
+			position:absolute;
+			left:600px;  
+			top:250px;  
+			width:600px; 
+			height:500px; 
+			overflow:auto;
+			color:#ffffff;
+			}
+		.conactbox{
+			position:absolute;
+			left:600px;  
+			top:450px;  
+			width:600px; 
+			height:500px; 
+			overflow:auto;
+			color:#ffffff;
+			}
+	</style>
+</head>
+
+ 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="col-sm-4">
+					<nav class="navbar navbar-default" role="navigation">
+					  <!-- Brand and toggle get grouped for better mobile display -->
+					  <div class="navbar-header">
+					  <a href="#" class="col-md-1 col-md-offset-1"><img src="assets/icon.jpg"></a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						  <span class="sr-only">Toggle navigation</span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						</button>
+					  </div>
+
+					  <!-- Collect the nav links, forms, and other content for toggling -->
+					  <div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav">
+						  <li ><a href="index.html">Katie Henry Gamae Art</a></li>
+						  <li class="active"><a href="#">About</a></li>
+						  <li><a href="2dArt.html">2D Art</a></li>
+						  <li><a href="3dArt.html">3D Art</a></li>
+						  <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							  <li><a href="file:///C:/Users/Eljin/Documents/portfolioWebsite/assets/kanaGameFinal/kanaGameBeta04.html"target="_blank">Kana Quest</a></li>
+							  <li><a href="file:///C:/Users/Eljin/Documents/portfolioWebsite/assets/kanaGameFinal/kanaGameBeta04.html"target="_blank">Problematic</a></li>
+							  <li><a href="#">Animation Reel</a></li>
+							</ul>
+						  </li>						  
+						</ul>
+					  </div><!-- /.navbar-collapse -->
+					</nav>
+				</div>
+				<div class="col-sm-8">
+					<div class="carousel-inner">
+						<div id="myCarosel" class="carousel slide" data-ride="carousel">
+						 
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+							<div class="item active">
+							  <img class="img-responsive center-block" src="assets/basicbg.png" alt="Test1">
+							  <div class="carousel-caption">
+								<p></p>
+							  </div>
+							</div>
+							
+						
+							<!-- Need one of those div chunks for each picture added.  Only one can be the active item. -->
+						  </div>
+
+						  <!-- Controls -->
+						  <!-- Don't touch these, they handle manual movement through the slideshow! -->
+						 
+						  </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "aboutbox">
+		<p>Hello and welcome to my porfolio!</p>
+		<p>    My name is Katie Henry. I am a game design student at George Mason University specializing in game art. I've had a passion for playing games ever since I was young, but lately it's been overtaken by a desire to make them. Now I find myself taking apart games in my head while I play them. While I'm known at school as one of the best in my class, now I have to prove myself as a professional. I'm looking forward to that challenge and continuing to learn new things about the industry.</p>
+	</div>
+	<div class= "conactbox">
+	Contact me at:  kehenry101@gmail.com
+	</div>
+</body>
